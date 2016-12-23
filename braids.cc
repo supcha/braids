@@ -334,7 +334,6 @@ int main(void) {
     /*
     while (render_block != playback_block) {
       RenderBlock();
-    
     }
     */
 
