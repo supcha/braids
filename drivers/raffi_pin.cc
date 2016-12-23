@@ -19,7 +19,7 @@ void RaffiPin::Init() {
   gpio_init.GPIO_Mode = GPIO_Mode_Out_PP;						// set to pushpull state
   GPIO_Init(GPIOA, &gpio_init);									// init 
 
-  //GPIOA->BSRR = GPIO_Pin_9;										
+  GPIOA->BSRR = GPIO_Pin_9;										
 }
 
 void RaffiPin::High() {
